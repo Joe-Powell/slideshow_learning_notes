@@ -5,14 +5,10 @@ const slide_container = document.querySelectorAll('.slide-container')
 
 
 function reset() {
-    // for(let i=0; i < slide_container.length; i++) {
-    //     slide_container[i].style.display = 'none';
-    // }
-    for(let i of slide_container) {
+    for(let i=0; i < slide_container.length; i++) {
         slide_container[i].style.display = 'none';
     }
 }
-
 
  // not using currently, but can be used when using a click only slideshow
 function loadPage() { 
